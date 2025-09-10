@@ -6,7 +6,7 @@ public class Usuario {
         
     }
     public String Saludo() {
-        return "Hola" + nombre;
+        return "Hola " + nombre;
     }
 }
 
