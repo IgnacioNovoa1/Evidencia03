@@ -1,5 +1,5 @@
-import javax.swing.*;
 import java.awt.event.*;
+import javax.swing.*;
 
 public class VentanaSaludo {
     public static void main(String[] args){
@@ -27,7 +27,7 @@ public class VentanaSaludo {
                 campoTexto.requestFocus();
             } else {
                 Usuario user = new Usuario(nombre);
-                etiquetaSaludo.setText(user.getSaludo());
+                etiquetaSaludo.setText(user.Saludo());
 
             }
         });
